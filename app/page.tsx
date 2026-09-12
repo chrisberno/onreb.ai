@@ -31,15 +31,25 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-start justify-between py-32 px-8 sm:px-16 bg-white dark:bg-black">
         <div className="flex flex-col gap-2 mb-16">
-          <h1 className="text-4xl font-bold tracking-tight text-black dark:text-zinc-50">
-            ONREB
-          </h1>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/onreb-logo.svg"
+            alt="ONREB"
+            width={3160}
+            height={700}
+            className="h-11 w-auto"
+          />
           <p className="text-lg text-zinc-500 dark:text-zinc-400">
             AI-native holding company
           </p>
         </div>
 
         <div className="flex flex-col gap-4 mb-16 max-w-lg">
+          <p className="text-base leading-7 text-zinc-700 dark:text-zinc-300">
+            The AI research community depends on open generative models as
+            foundational tools for building novel approaches and establishing
+            baselines.
+          </p>
           <p className="text-base leading-7 text-zinc-700 dark:text-zinc-300">
             We build and operate a portfolio of agent-powered products — each
             with its own market, customers, and revenue, unified by a shared
