@@ -1,0 +1,68 @@
+{
+  "instance": "onreb-dark",
+  "phases": [
+    {
+      "title": "Context",
+      "body": "Understand the human on the other end and the channel they use."
+    },
+    {
+      "title": "Floor",
+      "body": "Specify what the agent must declare, and what it must never pretend."
+    },
+    {
+      "title": "Surface",
+      "body": "Build the persona above the floor: a name, a voice, true capabilities."
+    },
+    {
+      "title": "Scrutiny",
+      "body": "Test it like a recorded call, a forwarded transcript, a pulled log."
+    }
+  ],
+  "entry": {
+    "on": true,
+    "title": "Commission",
+    "body": "Plan the agent under HAR: a role, a tenant, and the manifesto read first."
+  },
+  "exit": {
+    "on": true,
+    "from": 3,
+    "text": "Trust that holds up under scrutiny"
+  },
+  "closing": "soft",
+  "shortcuts": [
+    {
+      "from": 3,
+      "to": 1,
+      "label": "Violations become doctrine"
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "label": ""
+    }
+  ],
+  "direction": "clockwise",
+  "rotation": 0,
+  "boundary": true,
+  "descriptions": true,
+  "palette": "custom",
+  "colors": {
+    "canvas": "#000000",
+    "node": "#0a0a0a",
+    "text": "#ededed",
+    "accent": "#4f8ee6",
+    "soft": "#2c4a73",
+    "muted": "#9a9fa8",
+    "boundary": "#52565e"
+  },
+  "glow": {
+    "on": true,
+    "color": "#2f6fc6",
+    "blur": 160,
+    "intensity": 0.22
+  },
+  "motion": {
+    "enabled": true,
+    "speed": 1
+  }
+}

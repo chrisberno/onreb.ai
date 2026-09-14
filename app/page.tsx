@@ -57,6 +57,25 @@ export default function Home() {
           </p>
         </div>
 
+        {/*
+          Human-agent-centred design loop, from the HAR Resilience manifesto (v0.1).
+          Animated SVG rendered by the garage cycle-diagram engine from
+          diagrams/*.state.json — change the state and re-render, never hand-edit.
+          The full width of the white column, centred on the page, one render per colour scheme.
+        */}
+        <figure className="relative left-1/2 w-screen max-w-3xl -translate-x-1/2 px-4 sm:px-0 mb-16">
+          <picture>
+            <source srcSet="/diagrams/har-design-loop-dark.svg" media="(prefers-color-scheme: dark)" />
+            <img
+              src="/diagrams/har-design-loop.svg"
+              alt="Human-agent-centred design loop. Commission pushes work into a loop of Context, Floor, Surface and Scrutiny. Scrutiny returns to Floor, labelled Violations become doctrine, and to Surface. The loop leaves as Trust that holds up under scrutiny."
+              width={1200}
+              height={800}
+              className="block h-auto w-full"
+            />
+          </picture>
+        </figure>
+
         <div className="w-full mb-16">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-400 dark:text-zinc-500 mb-6">
             Portfolio
