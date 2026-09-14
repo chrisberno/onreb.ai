@@ -68,7 +68,7 @@ export default function Home() {
             <source srcSet="/diagrams/har-design-loop-dark.svg" media="(prefers-color-scheme: dark)" />
             <img
               src="/diagrams/har-design-loop.svg"
-              alt="Human-agent-centred design loop. Commission pushes work into a loop of Context, Floor, Surface and Scrutiny. Scrutiny returns to Floor, labelled Violations become doctrine, and to Surface. The loop leaves as Trust that holds up under scrutiny."
+              alt="Human-agent-centred design loop. Commission pushes work into a loop of Context, Floor, Surface and Scrutiny. Scrutiny returns to Floor, labelled Violations become doctrine, and to Surface. The loop leaves as Deliver experiences people value."
               width={1200}
               height={800}
               className="block h-auto w-full"
